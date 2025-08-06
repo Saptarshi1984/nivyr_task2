@@ -8,7 +8,7 @@ import CardSectionFour from "@/components/CardSectionFour";
 import CardSectionFive from "@/components/CardSectionFive";
 import CardSectionSix from "@/components/CardSectionSix";
 import LogoSection from "@/components/LogoSection";
-
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -52,6 +52,10 @@ export default function Home() {
     <p className="w-[888px] h-[138px] text-center text-[48px] font-bold">VIDEOS SO GOOD THEY'LL THINK<br /> YOU HAVE OUTSOURCED THEM.</p>
     <LogoSection />
    </main>
+   <footer >
+    <Footer />
+
+   </footer>
    </div>   
   );
 }
