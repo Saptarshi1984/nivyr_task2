@@ -5,6 +5,7 @@ import CardSectionTwo from "@/components/CardSectionTwo";
 import Image from "next/image";
 import CardSectionThree from "@/components/CardSectionThree";
 import CardSectionFour from "@/components/CardSectionFour";
+import CardSectionFive from "@/components/CardSectionFive";
 
 
 
@@ -42,6 +43,7 @@ export default function Home() {
     <h1 className="text-[24px] text-[#FFD300] font-medium">AI-Avatars</h1>
     <CardSectionThree />
     <CardSectionFour />
+    <CardSectionFive />
    </main>
    </div>   
   );
