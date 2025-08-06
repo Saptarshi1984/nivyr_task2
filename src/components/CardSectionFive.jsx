@@ -8,10 +8,9 @@ import ProfileCard from "./ProfileCard";
 const CardSectionFive = () => {
   return (
      
-    <div className="w-[1216px] h-[522px] flex flex-col items-center">
-      <div className="w-[742px] h-[138px] flex !fex-col gap-4 text-[48px]">
-        <h1>LOVED BY CREATORS.</h1>
-        <h1>LOVED BY THE FORTUNE</h1>
+    <div className="w-[1216px] h-[522px] flex flex-col gap-8 items-center justify-around">
+      <div className="w-[742px] h-[138px] flex fex-col gap-4 text-[48px] text-center">
+        <p>LOVED BY CREATORS.<br />LOVED BY THE FORTUNE <span className="text-[#FFD300] font-bold">500</span></p>         
       </div>
 
       <div className="flex flex-row justify-between gap-4 items-center">
@@ -38,7 +37,7 @@ const CardSectionFive = () => {
           details="Max Alter Director of Audience Development, NBCUniversal"
         />
       </div>
-      <button type="button" className="w-[175px] h-[60px] text-[20px] rounded-[16px] border-1 border-white">View More</button>
+      <button type="button" className="w-[175px] h-[60px] text-[20px] rounded-[16px] border-1 border-white text-[#FFD300] p-4">View More</button>
       </div>
   );
 };

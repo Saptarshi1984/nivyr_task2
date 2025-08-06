@@ -6,6 +6,8 @@ import Image from "next/image";
 import CardSectionThree from "@/components/CardSectionThree";
 import CardSectionFour from "@/components/CardSectionFour";
 import CardSectionFive from "@/components/CardSectionFive";
+import CardSectionSix from "@/components/CardSectionSix";
+import LogoSection from "@/components/LogoSection";
 
 
 
@@ -14,7 +16,7 @@ export default function Home() {
     <div>
    <Navbar />
    <main className="h-auto flex flex-col gap-10 items-center justify-evenly">
-    <div className="flex flex-col justify-between items-center top-[141px] w-[844px] h-[192px] text-[48px] font-bold">
+    <div className="my-[80px] flex flex-col justify-between items-center top-[141px] w-[844px] h-[192px] text-[48px] font-bold">
     <h1>CREATE  PRO LEVEL</h1>
     <h1>VIDEOS IN THE BLINK OF AI</h1> 
     </div>
@@ -44,6 +46,11 @@ export default function Home() {
     <CardSectionThree />
     <CardSectionFour />
     <CardSectionFive />
+    
+      <p className="w-[450px] h-[138px] text-center text-[48px] font-bold"><span className="text-[#FFD300]">PRO-LEVEL VIDEO,</span><br/>IN YOUR POCKET</p>
+    <CardSectionSix />
+    <p className="w-[888px] h-[138px] text-center text-[48px] font-bold">VIDEOS SO GOOD THEY'LL THINK<br /> YOU HAVE OUTSOURCED THEM.</p>
+    <LogoSection />
    </main>
    </div>   
   );
